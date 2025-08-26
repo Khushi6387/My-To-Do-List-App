@@ -1,1 +1,16 @@
+/* Tailwind CSS CDN link */
+@import url('https://cdn.tailwindcss.com');
+/* Google Font ko import karein */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; /* Light gray background */
+}
+
+/* Poore hue tasks ke liye custom styling */
+.completed-task {
+    text-decoration: line-through;
+    color: #9ca3af; /* Gray color for completed tasks */
+}
 
